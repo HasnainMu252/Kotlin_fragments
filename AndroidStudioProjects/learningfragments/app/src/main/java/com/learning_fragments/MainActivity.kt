@@ -38,6 +38,11 @@ class MainActivity : AppCompatActivity() {
             }
             true
         }
+        binding.bottomNavigationView.getOrCreateBadge(R.id.shop).apply {
+            number = 10
+        }
+
+
 //
 //
 
